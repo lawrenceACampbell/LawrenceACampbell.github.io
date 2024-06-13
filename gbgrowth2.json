@@ -3,7 +3,7 @@
     "title": {
       "text": "GDP Growth",
       "subtitle": "GDP, quarterly growth rate, % | Source: ONS through ECO API",
-      "fontSize": "14",
+      "fontSize": 14,
       "subtitleFontSize": "12",
       "color": "#000000",
       "subtitleColor": "#000000"
