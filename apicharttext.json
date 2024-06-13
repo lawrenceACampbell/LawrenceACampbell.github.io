@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Japan Debt",
+    "subtitle": ["Ratio of debt to GDP %", "| Source: JSB (WB) through ECO API"]
+  },
+
+  "width": 400,
+  "height": 300,
+
+  "data": {"url": "https://api.economicsobservatory.com/jpn/debt?vega"},
+
+    "mark": {
+      "type":"line",
+    "point": {
+      "filled": false,
+      "fill":"white"
+    }
+    },
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title":null}
+  }
+}
